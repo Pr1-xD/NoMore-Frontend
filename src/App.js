@@ -1,17 +1,36 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Nav from './Nav'
 import Section from './Section'
 import SectionTwo from './SectionTwo'
+import Main from './Main';
+import Calm from './Calm';
 
 function App() {
   return (
     <div>
-      <Nav/>
+      <div>
+      <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/section" element={<Section/>} />
+          <Route path="/calm" element={<Calm/>} />
+          <Route
+          path="*"
+          element={
+            <main style={{ padding: "1rem" }}>
+              <p>There's nothing here!</p>
+            </main>
+          }
+        />
+          {/* <Route path="/login" component={Login} /> */}
+      </Routes>
+    </div>
+      {/* <Nav/>
       <Home/>
       <Section/>
-      <SectionTwo/>
+      <SectionTwo/> */}
     </div>
   );
 }
