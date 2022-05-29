@@ -10,6 +10,7 @@ function Main(props) {
         <Nav/>
         <Home/>
         <Section/>
+        <Subsec/>
         <SectionTwo/>
         </div>
     );
