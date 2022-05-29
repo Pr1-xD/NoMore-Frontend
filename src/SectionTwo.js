@@ -1,20 +1,25 @@
 import React from 'react';
+import ill3 from './images/ill3.svg';
 
 function SectionTwo(props) {
     return (
         <div>
             <section class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
-    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+  <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src={ill3}/>
     <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let’s get you back to Earth </h1>
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Let’s get you back to yourself </h1>
       {/* <p class="mb-8 leading-relaxed">Kickstarter biodiesel roof party wayfarers cold-pressed. Palo santo live-edge tumeric scenester copper mug flexitarian. Prism vice offal plaid everyday carry. Gluten-free chia VHS squid listicle artisan.</p> */}
       <div class="flex w-full justify-center items-end">
-        <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+      <button class="px-9 py-4 text-4xl text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-main-color lg:px-10 rounded-xl hover:bg-main-color focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 button1 mr-3">TogetherTime</button>
+      <button class="px-9 py-4 text-4xl text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-main-color lg:px-10 rounded-xl hover:bg-main-color focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 button1 mr-3">GratTime</button>
+      <button class="px-9 py-4 text-4xl text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-main-color lg:px-10 rounded-xl hover:bg-main-color focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 button1 mr-3">SocialSlowTime</button>
+      <button class="px-9 py-4 text-4xl text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-main-color lg:px-10 rounded-xl hover:bg-main-color focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 button1 mr-3">Mindfulness</button>
+        {/*<div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
           <label for="hero-field" class="leading-7 text-sm text-gray-600">Join our community</label>
           <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-purple-200 focus:bg-transparent border border-gray-300 focus:border-purple-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
         </div>
-        <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Button</button>
+    <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Button</button>*/}
       </div>
       {/* <p class="text-sm mt-2 text-gray-500 mb-8 w-full">Neutra shabby chic ramps, viral fixie.</p> */}
       {/* <div class="flex">
